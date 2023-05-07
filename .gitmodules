@@ -1,0 +1,4 @@
+[submodule "dist"]
+	path = dist
+	url = git@github.com:MVPuccino/mvpuccino.github.io.git
+	branch = master
