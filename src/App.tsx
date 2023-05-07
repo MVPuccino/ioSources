@@ -1,12 +1,17 @@
 import type { Component } from 'solid-js';
+import Headerbar from './headerbar';
+import Content from './Content';
 
-import logo from './logo.svg';
-import styles from './App.module.css';
+import styles from './index.css';
 
 const App: Component = () => {
-  return (
-    <p>Hi</p>
-  );
+    return (  
+        <div>
+            <Headerbar/>
+            <Content/>
+        </div>
+
+    );
 };
 
 export default App;
